@@ -90,9 +90,9 @@ void task5(unsigned int IP1, unsigned int IP2, unsigned int mask)
 	unsigned int networkIP2 = getNetworkIP(IP2, mask);
 
 	if (networkIP1 == networkIP2) {
-		printf("DA\n");
+		printf("YES\n");
 	} else {
-		printf("NU\n");
+		printf("NO\n");
 	}
 }
 
@@ -112,9 +112,9 @@ void task6(unsigned int mask)
 	printf("-6 ");
 
 	if (correctMask(mask)) {
-		printf("DA\n");
+		printf("YES\n");
 	} else {
-		printf("NU\n");
+		printf("NO\n");
 	}
 
 }
