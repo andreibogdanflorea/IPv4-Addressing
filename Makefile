@@ -1,10 +1,10 @@
 CC=gcc
 CFLAGS=-std=c99 -Wall -Wextra
-EXE=ip
+EXE=ip_main
 
 all: build
 
-build: ip.c
+build: ip_main.c
 	$(CC) $^ $(CFLAGS) -o $(EXE)
 
 run: $(EXE)
